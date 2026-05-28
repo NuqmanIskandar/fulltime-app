@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.first-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.leagues-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leagues-div button {
+  margin-right: 30px;
+  border: none;
+  background-color: white;
+  border: solid 2px rgb(160, 159, 159);
+  border-radius: 8px;
+}
+
+.leagues-div button:hover {
+  border-color: black;
+}
+
+button img {
+  width: 100px;
+  height: 100px;
+}
