@@ -32,7 +32,6 @@ const PremierLeaguePage = () => {
             .then(result => result.json())
             .then(data => data.matches)
             .then(game => {
-                console.log(game[0])
                 cache.current[matchday] = game
                 setMatch(game)
             })
